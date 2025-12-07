@@ -40,21 +40,22 @@ Containerization: Docker, Docker Compose
 ```bash
 git clone https://github.com/fargolazadi/todo-app-fastapi.git
 cd todo-app-fastapi
-
+```
 2️⃣ Environment variables
 
 Create a .env file in the project root and add:
 
-env
+```env
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
 POSTGRES_DB=todo_db
 DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/todo_db
-
+```
 3️⃣ Run with Docker Compose
 
 ‍‍‍‍‍‍```bash
 docker-compose up --build
+```
 
 4️⃣ Access services
 
