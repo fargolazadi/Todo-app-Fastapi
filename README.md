@@ -1,3 +1,6 @@
+#📝 TO-DO APP
+###FastAPI + PostgreSQL + Docker
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
@@ -6,48 +9,43 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 
-📝 TO-DO APP
-FastAPI + PostgreSQL + Docker
-
 A backend application for managing tasks (To-Do) built with FastAPI, PostgreSQL, and Docker. Includes JWT authentication, full CRUD operations, API documentation with Swagger & Redoc, and quick deployment using Docker Compose.
 
+___
 
+## Features
+- User registration and login with JWT authentication
 
+- Full CRUD operations for tasks
 
+- Interactive API documentation with Swagger and Redoc
 
-Features
-🔑 User registration and login with JWT authentication
+- Quick setup and run with Docker & Docker Compose
 
-✅ Full CRUD operations for tasks
+- Seed data for testing
 
-📖 Interactive API documentation with Swagger and Redoc
+___
 
-🐳 Quick setup and run with Docker & Docker Compose
+## Technologies
+-**Backend:** FastAPI, SQLAlchemy, Pydantic
 
-🧪 Seed data for testing
+-**Database:** PostgreSQL
 
+-**Authentication:** JWT (OAuth2 Password Flow)
 
+-**Containerization:** Docker, Docker Compose
 
+___
 
+## Installation & Run
 
-🛠️ Technologies
-Backend: FastAPI, SQLAlchemy, Pydantic
-
-Database: PostgreSQL
-
-Authentication: JWT (OAuth2 Password Flow)
-
-Containerization: Docker, Docker Compose
-
-⚙️ Installation & Run
-
-1️⃣ Clone the repository
+###1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/fargolazadi/todo-app-fastapi.git
 cd todo-app-fastapi
 ```
-2️⃣ Environment variables
+###2️⃣ Environment variables
 
 Create a .env file in the project root and add:
 
@@ -57,12 +55,12 @@ POSTGRES_PASSWORD=postgres
 POSTGRES_DB=todo_db
 DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/todo_db
 ```
-3️⃣ Run with Docker Compose
+###3️⃣ Run with Docker Compose
 
 ‍‍‍‍‍‍```bash
 docker-compose up --build‍‍‍‍‍```
 
-4️⃣ Access services
+###4️⃣ Access services
 
 🌐 FastAPI: http://localhost:8000
 
@@ -71,6 +69,8 @@ docker-compose up --build‍‍‍‍‍```
 📘 Redoc: http://localhost:8000/redoc
 
 🗄️ PostgreSQL: available on port 5432
+
+___
 
 ## Screenshots
 
