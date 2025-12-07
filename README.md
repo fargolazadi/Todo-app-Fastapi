@@ -59,9 +59,8 @@ DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/todo_db
 ```
 3️⃣ Run with Docker Compose
 
-‍‍‍‍‍‍```
-docker-compose up --build
-```
+‍‍‍‍‍‍```bash
+docker-compose up --build‍‍‍‍‍```
 
 4️⃣ Access services
 
